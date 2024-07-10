@@ -3,12 +3,12 @@ import numpy as np
 import pandas as pd
 import altair as alt
 
-# st.header('st.button')
-# # 如果按了叫'Say hello'的按钮 就打印 不按 就...
-# if st.button('Say hello'):
-#     st.write('Why hello there')
-# else:
-#     st.write('Goodbye')
+st.header('st.button')
+# 如果按了叫'Say hello'的按钮 就打印 不按 就...
+if st.button('Say hello'):
+    st.write('Why hello there')
+else:
+    st.write('Goodbye')
 
 st.header('st.write')
 st.write('Hello, *World!* :sunglasses:')
